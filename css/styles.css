@@ -176,6 +176,7 @@ Hero section
 }
 
 .hero-btn {
+   line-height: 1.5;
    padding: 16px 32px;
    min-width: 169px;
    font-family: inherit;
@@ -243,6 +244,9 @@ Team section
    font-weight: 700;
    text-align: center;
    color: #2e2f42;
+   line-height: 1.11;
+      
+      letter-spacing: 0.02em;
 }
 
 .team-list {
@@ -273,12 +277,14 @@ Team section
    font-size: 20px;
    line-height: 1.2;
    color: #2e2f42;
+   letter-spacing: 0.02em;
 }
 
 .team-card p {
    font-size: 16px;
    line-height: 1.5;
    color: #434455;
+   letter-spacing: 0.02em;
 }
 
 /* Portfolio section */
