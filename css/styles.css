@@ -176,7 +176,6 @@ Hero section
 }
 
 .hero-btn {
-   min-width: 169px;
    padding: 16px 32px;
    min-width: 169px;
    font-family: inherit;
@@ -264,7 +263,7 @@ Team section
 }
 
 .team-card-content {
-   padding-top: 32px;
+   padding:32px 16px;
    text-align: center;
 }
 
@@ -298,14 +297,6 @@ Team section
    color: #2e2f42;
 }
 
-.portfolio-title {
-   font-weight: 700;
-   font-size: 36px;
-   line-height: 1.11;
-   letter-spacing: 0.02em;
-   text-align: center;
-   color: #2e2f42;
-}
 
 .portfolio-list {
    display: flex;
@@ -316,13 +307,11 @@ Team section
 .portfolio-card {
    width: 360px;
    background-color: #ffffff;
-   border: 1px solid #e7e9fc;
-   border-bottom: 1px solid #e7e9fc;
+   border: none;
 }
 
 .portfolio-title {
    text-align: left;
-   padding: 32px 16px 8px;
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
@@ -331,11 +320,15 @@ Team section
 }
 
 .portfolio-category {
-   padding: 0 16px 32px;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
+}
+.portfolio-text {
+   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
+   border-top: none;
 }
 
 /* =====================
